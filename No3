@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int faktorial;
+    int temp=1;
+    cout<<"input\n";
+    cin>>faktorial;
+    for(int i=faktorial;i>0;i--)
+    {
+        temp=temp*i;
+    };
+    cout<<"output\n";
+    cout<<temp;
+    return 0;
+}
