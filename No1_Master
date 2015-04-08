@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int jml;
+    int temp=0;
+    int fibonacci[10];
+    fibonacci[1]=1;
+    fibonacci[2]=1;
+    fibonacci[3]=2;
+    fibonacci[4]=3;
+    fibonacci[5]=5;
+    fibonacci[6]=8;
+    fibonacci[7]=13;
+
+    cout<<"Input\n";
+    cin>>jml;
+    cout<<"output\n";
+    for(int i=1;i<=jml;i++){
+        temp=temp+fibonacci[i];
+    };
+    cout<<temp;
+    return 0;
+}
