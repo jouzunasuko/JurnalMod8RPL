@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
     int jml;
-    int temp=0;
     int fibonacci[10];
     fibonacci[1]=1;
     fibonacci[2]=1;
@@ -19,8 +18,7 @@ int main()
     cin>>jml;
     cout<<"output\n";
     for(int i=1;i<=jml;i++){
-        temp=temp+fibonacci[i];
+        cout<<fibonacci[i];
     };
-    cout<<temp;
     return 0;
 }
